@@ -204,6 +204,10 @@
   border-bottom: 1px solid #673b77;
 }
 
+.projects__link {
+  color: #673b77;
+}
+
 .education {
   margin-top: 50px;
   padding-bottom: 50px;

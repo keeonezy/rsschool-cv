@@ -5,8 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
   <title>My resume</title>
 </head>
 
@@ -52,7 +50,7 @@
     <main>
       <div class="container main__container">
         <section class="author">
-          <img class="author__img" src="./images/Avatar.jpg" alt="Avatar">
+          <img class="author__img" src="<%=require("./images/Avatar.jpg")%>" alt="Avatar">
 
           <div class="author__content">
             <h1 class="author__title">Aleksandr</h1>
@@ -64,17 +62,17 @@
           <h2 class="main__title">Contacts</h2>
           <ul class="main__ul">
             <li class="main__li">
-              <img class="main__img" src="./images/icon/location.svg" alt="Location">
+              <img class="main__img" src="<%=require("./images/icon/location.svg")%>" alt="Location">
               <p class="main__text">Moscow, Russia</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/github.svg" alt="Github">
+              <img class="main__img" src="<%=require("./images/icon/github.svg")%>" alt="Github">
               <p class="main__text">Github: keeonezy</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/telegram.svg" alt="Telegram">
+              <img class="main__img" src="<%=require("./images/icon/telegram.svg")%>" alt="Telegram">
               <p class="main__text">Telegram: mronenew</p>
             </li>
           </ul>
@@ -90,27 +88,27 @@
           <h2 class="main__title">Skills</h2>
           <ul class="main__ul">
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Web-development: HTML5, CSS3, JavaScript</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Frameworks and libraries: React</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Version control: GIT, Github</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Graphics: Figma, Sketch, Tilda, Photoshop</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Setting up an advertising account: Yandex Direct, Google Ads</p>
             </li>
           </ul>
@@ -131,12 +129,12 @@
           <h2 class="main__title">Courses</h2>
           <ul class="main__ul">
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">rs.school - «JavaScript/Front-end. Stage 0»</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Yandex Practicum - Web Developer</p>
             </li>
           </ul>
@@ -146,12 +144,12 @@
           <h2 class="main__title">Projects</h2>
           <ul class="main__ul">
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <a class="projects__link link" href="https://keeonezy.github.io/russian-travel/index.html"
                 target="_blank">Russian travel</a>
             </li>
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <a class="projects__link link" href="https://keeonezy.github.io/mesto/index.html"
                 target="_blank">Mesto</a>
             </li>
@@ -167,12 +165,12 @@
           <h2 class="main__title">Language</h2>
           <ul class="main__ul">
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">Russian - native</p>
             </li>
 
             <li class="main__li">
-              <img class="main__img" src="./images/icon/check-mark.svg" alt="Check Mark">
+              <img class="main__img" src="<%=require("./images/icon/check-mark.svg")%>" alt="Check Mark">
               <p class="main__text">English - A2</p>
             </li>
           </ul>
@@ -195,7 +193,7 @@
           </ul>
         </nav>
         <a class="link" href="https://rs.school/js/" target="_blank">
-          <img class="footer__img" src="./images/icon/rss.svg" alt="RS Rscool logo">
+          <img class="footer__img" src="<%=require("./images/icon/rss.svg")%>" alt="RS Rscool logo">
         </a>
       </div>
     </footer>

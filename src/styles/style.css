@@ -221,17 +221,16 @@
 }
 
 
-
-.footer {
-  background-color: #673b77;
-}
-
 .footer__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   color: #fff;
+}
+
+.footer {
+  background-color: #673b77;
 }
 
 .footer__nav {
